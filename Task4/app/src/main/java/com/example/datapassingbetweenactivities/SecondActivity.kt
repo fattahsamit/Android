@@ -13,8 +13,12 @@ class SecondActivity : AppCompatActivity() {
         val age = intent.getStringExtra("EXTRA_AGE")
         val country = intent.getStringExtra("EXTRA_COUNTRY")
 
-        val finalString = "$name is $age years old who lives in $country"
+        val finalString = "$name is $age years old and lives in $country"
 
         textView.text =finalString
+
+        btnBack.setOnClickListener {
+            finish()
+        }
     }
 }
