@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
             val country = editCountry.text.toString()
 
             Intent(this, SecondActivity::class.java).also {
+                it.putExtra("EXTRA_NAME", name)
+                it.putExtra("EXTRA_AGE", age)
+                it.putExtra("EXTRA_COUNTRY", country)
+
                 startActivity(it)
             }
         }
