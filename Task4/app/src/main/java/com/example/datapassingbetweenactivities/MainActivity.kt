@@ -11,6 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         btnSubmit.setOnClickListener {
+            val name = editName.text.toString()
+            val age = editAge.text.toString()
+            val country = editCountry.text.toString()
+
             Intent(this, SecondActivity::class.java).also {
                 startActivity(it)
             }
