@@ -9,6 +9,10 @@ class SubActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sub)
 
-        pdfview.fromAsset("Lecture1.pdf").load()
+        pdfview.fromAsset("Lecture1.pdf")
+//            .pages(0,2,4) //Allow no. of pages to display to the user
+            .enableSwipe(true)
+            .swipeHorizontal(true)
+            .load()
     }
 }
