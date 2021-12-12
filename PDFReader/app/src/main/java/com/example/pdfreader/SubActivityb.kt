@@ -11,7 +11,8 @@ class SubActivityb : AppCompatActivity() {
         setContentView(R.layout.activity_sub_activityb)
 
         pdfview.fromAsset("Book.pdf")
-//            .pages(0,2,4) //Allow no. of pages to display to the user
+            .pages(22,23,24,25,26,29,30,31)
+            //Allow no. of pages to display to the user
 //            .enableSwipe(true)
 //            .swipeHorizontal(true)
             .scrollHandle(DefaultScrollHandle(this))
