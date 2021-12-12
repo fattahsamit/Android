@@ -16,5 +16,9 @@ class SubActivity : AppCompatActivity() {
             .swipeHorizontal(true)
             .scrollHandle(DefaultScrollHandle(this))
             .load()
+
+        closeF1.setOnClickListener {
+            finish()
+        }
     }
 }
