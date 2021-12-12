@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SubActivity">
+    tools:context=".SubActivity1">
 
     <com.github.barteksc.pdfviewer.PDFView
         android:id="@+id/pdfview"
@@ -24,6 +24,5 @@
             android:backgroundTint="#F44336"
             app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
     </com.github.barteksc.pdfviewer.PDFView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
