@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PDFReader">
         <activity
+            android:name=".SubActivityb"
+            android:exported="true" />
+        <activity
+            android:name=".SubActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".SubActivity4"
+            android:exported="true" />
+        <activity
+            android:name=".SubActivity3"
+            android:exported="true" />
+        <activity
+            android:name=".SubActivity2"
+            android:exported="true" />
+        <activity
             android:name=".SubActivity1"
             android:exported="true" />
         <activity

@@ -16,5 +16,35 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        btnL2.setOnClickListener {
+            Intent(this, SubActivity2::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnL3.setOnClickListener {
+            Intent(this, SubActivity3::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnL4.setOnClickListener {
+            Intent(this, SubActivity4::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnL5.setOnClickListener {
+            Intent(this, SubActivity5::class.java).also {
+                startActivity(it)
+            }
+        }
+
+        btnLb.setOnClickListener {
+            Intent(this, SubActivityb::class.java).also {
+                startActivity(it)
+            }
+        }
+
     }
 }
